@@ -1,10 +1,11 @@
-# 🎂 CrumbLab  Bakery Website
+# 🎂 CrumbLab Bakery Website
 
 CrumbLab is a modern, fully responsive front-end website designed for a premium, specialized bakery. The platform delivers a visually delicious experience showcasing a signature menu focused entirely on gourmet **Cakes, artisanal Donuts, and custom Cupcakes**.
 
-🔗 **Live Deployment:** [View Live Website](https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/) *(Replace with your GitHub Pages link)*
+🔗 **Live Deployment:** [https://laibatahir27.github.io/CrumbLab-Website/](https://laibatahir27.github.io/CrumbLab-Website/)
 
 ---
+
 ## ✨ Key Features
 
 - **Specialized Menu Display:** Dedicated, beautifully styled visual sections showcasing Cakes, freshly glazed Donuts, and decorated Cupcakes.
@@ -36,13 +37,17 @@ CrumbLab is a modern, fully responsive front-end website designed for a premium,
 ```text
 CrumbLab/
 │
-├── index.html          # Main landing page & bakery menu structures
+├── index.html          # Main landing page & about section
+├── menu.html           # Full interactive bakery menu (Cakes, Cupcakes, Donuts)
+├── gallery.html        # Visual showcase of bakery items
+├── event.html          # Catering information and Quote Request Form
 │
-├── css/
-│   └── style.css       # Custom stylesheets, color tokens, & layout systems
+├── index.css           # Styles for landing page
+├── menu.css            # Styles for menu page
+├── gallery.css         # Styles for gallery page
+├── event.css           # Styles for catering/event page
 │
-├── js/
-│   └── main.js         # Interactive elements and responsive mobile menu logic
+├── menu.js             # Cart logic, filters, and dynamic sidebar for menu
+├── event.js            # Calendar & interactive form logic for event page
 │
-└── ├── images/         # Optimized imagery of cakes, donuts, and cupcakes
-             
+└── [Images]            # Optimized bakery images (.jpg, .jpeg, .png)
